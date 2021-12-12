@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SensorOverviewActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Range"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Min Delay"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewMinDelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Power"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Resolution"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewResolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Vendor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewVendor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Version"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:id="@+id/textViewSensorOverviewVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Sensor Values"
+        android:id="@+id/buttonGetSensorValues"
+        />
+
+</LinearLayout>
